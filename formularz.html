@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=device-width=1">
+    <style>
+        body{
+            text-align: center;
+        }
+        .przycisk{
+            color:red;
+        }
+        body{
+            margin: auto;
+            background-color: rgb(170, 170, 170);
+        }
+        input, select, textarea {
+            width: 50%;
+            padding: 8px;
+            margin-bottom: 15px;
+            background-color: rgb(209, 209, 209);
+            text-align: center;
+        }
+        p{
+            color:black;
+            font-size: 20px;
+        }
+        li, ul{
+            list-style-type: none;
+            font-size: larger;
+            color: red;
+        }
+        a:hover{
+            color:rgb(85, 0, 0);
+        }
+        a{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="PiotrPotasiak2.html">wróc do Fandomu</a></li>
+        </ul>
+        <form>
+        <input type="imie">
+        <p>wpisz tu imie i nazwisko postaci(nazwe użytkownika)</p>
+        <br>
+        <input type="email">
+        <p>wpisz tu email byśmy mogli cie potem zalogować(dodaj email do konta)</p>
+        <br>
+        <input type="numer" min="0" max="90">
+        <br><br>
+        <textarea>Tutaj!</textarea>
+        <br><br>
+        Opisz swoją postać kim jest, gdzie się urodziła i po jakiej stronie mocy jest
+        <br><br><br>
+        
+            
+            <br><br>
+            <select name="mieczswietlny" id="miecz">
+                <option value="none">none</option>
+                <option value="zielony">zielony</option>
+                <option value="niebieski">niebieski</option>
+                <option value="fioletowy">fioletowy</option>
+                <option value="czerwony">czerwony</option>
+                <option value="żółty">żółty</option>
+                <option value="pomarańczowy">pomarańczowy</option>
+            </select>
+            <br><br>
+            <label for="mieczyk">wybierz kolor swojego0 miecza świetlnego</label>
+            <br><br>
+            <select name="stronamocy" id="stronamocy">
+                <option value="nie wybrano">none</option>
+                <option value="złej">sith</option>
+                <option value="dobrej">Jedi</option>
+            </select>
+            <br><br>
+            <label for="strona mocy">Po jakiej stronie mocy jesteś?</label>
+            <br><br>
+        </form>
+        <button type="submit" class="przycisk">potwierdź</button>
+    <footer>
+        <img src="starwarsa.jpg" height="280px" width="900px">
+    </footer>
+</body>
